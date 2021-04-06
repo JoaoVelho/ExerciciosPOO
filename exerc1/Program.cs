@@ -52,7 +52,7 @@ namespace exerc1
                         break;
                     case 6:
                         Console.WriteLine("Insira a cor que você quer pintar: ");
-                        String cor = Console.ReadLine();
+                        string cor = Console.ReadLine();
                         veiculo.pintar(cor);
                         Console.WriteLine(veiculo.Cor);
                         break;

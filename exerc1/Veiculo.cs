@@ -4,15 +4,15 @@ namespace exerc1
 {
     public class Veiculo
     {
-        public String Marca { get; set; }
-        public String Modelo { get; set; }
-        public String Placa { get; set; }
-        public String Cor { get; set; }
+        public string Marca { get; set; }
+        public string Modelo { get; set; }
+        public string Placa { get; set; }
+        public string Cor { get; set; }
         public float Km { get; set; }
         public bool isLigado { get; set; }
         public int litrosCombustivel { get; set; }
         public int Velocidade { get; set; }
-        public Double Preco { get; set; }
+        public double Preco { get; set; }
 
         public void acelerar() {
             if (!isLigado) {
@@ -38,7 +38,7 @@ namespace exerc1
             }
         }
 
-        public void pintar(String cor) {
+        public void pintar(string cor) {
             Cor = cor;
         }
 
