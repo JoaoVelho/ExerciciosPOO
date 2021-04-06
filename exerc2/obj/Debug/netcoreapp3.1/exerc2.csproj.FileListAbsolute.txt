@@ -1,0 +1,13 @@
+C:\Users\jrrl\OneDrive - GFT Technologies SE\Documents\ExerciciosPOO\exerc2\bin\Debug\netcoreapp3.1\exerc2.exe
+C:\Users\jrrl\OneDrive - GFT Technologies SE\Documents\ExerciciosPOO\exerc2\bin\Debug\netcoreapp3.1\exerc2.deps.json
+C:\Users\jrrl\OneDrive - GFT Technologies SE\Documents\ExerciciosPOO\exerc2\bin\Debug\netcoreapp3.1\exerc2.runtimeconfig.json
+C:\Users\jrrl\OneDrive - GFT Technologies SE\Documents\ExerciciosPOO\exerc2\bin\Debug\netcoreapp3.1\exerc2.runtimeconfig.dev.json
+C:\Users\jrrl\OneDrive - GFT Technologies SE\Documents\ExerciciosPOO\exerc2\bin\Debug\netcoreapp3.1\exerc2.dll
+C:\Users\jrrl\OneDrive - GFT Technologies SE\Documents\ExerciciosPOO\exerc2\bin\Debug\netcoreapp3.1\exerc2.pdb
+C:\Users\jrrl\OneDrive - GFT Technologies SE\Documents\ExerciciosPOO\exerc2\obj\Debug\netcoreapp3.1\exerc2.csprojAssemblyReference.cache
+C:\Users\jrrl\OneDrive - GFT Technologies SE\Documents\ExerciciosPOO\exerc2\obj\Debug\netcoreapp3.1\exerc2.AssemblyInfoInputs.cache
+C:\Users\jrrl\OneDrive - GFT Technologies SE\Documents\ExerciciosPOO\exerc2\obj\Debug\netcoreapp3.1\exerc2.AssemblyInfo.cs
+C:\Users\jrrl\OneDrive - GFT Technologies SE\Documents\ExerciciosPOO\exerc2\obj\Debug\netcoreapp3.1\exerc2.csproj.CoreCompileInputs.cache
+C:\Users\jrrl\OneDrive - GFT Technologies SE\Documents\ExerciciosPOO\exerc2\obj\Debug\netcoreapp3.1\exerc2.dll
+C:\Users\jrrl\OneDrive - GFT Technologies SE\Documents\ExerciciosPOO\exerc2\obj\Debug\netcoreapp3.1\exerc2.pdb
+C:\Users\jrrl\OneDrive - GFT Technologies SE\Documents\ExerciciosPOO\exerc2\obj\Debug\netcoreapp3.1\exerc2.genruntimeconfig.cache
