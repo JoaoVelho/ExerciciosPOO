@@ -9,9 +9,7 @@ namespace exerc3
         public List<string> magia { get; private set; }
 
         public Mago(string nome) : base(nome) {
-            List<string> mag = new List<string>();
-            magia = mag;
-            magia.Add("Attack");
+            magia = new List<string>() { "Attack" };
             vida = 3;
             mana = 5;
             inteligencia = 5;

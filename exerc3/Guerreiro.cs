@@ -8,9 +8,7 @@ namespace exerc3
         public List<string> habilidade { get; private set; }
 
         public Guerreiro(string nome) : base(nome) {
-            List<string> hab = new List<string>();
-            habilidade = hab;
-            habilidade.Add("Attack");
+            habilidade = new List<string>() { "Attack" };
             vida = 5;
             mana = 3;
             inteligencia = 3;
