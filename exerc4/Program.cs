@@ -23,6 +23,17 @@ namespace exerc4
             });
 
             Console.WriteLine(maisVelho.nome + " é o mais velho");
+            Console.WriteLine();
+
+            // EXERCÍCIO 5
+            Console.WriteLine(pessoas.Count + " pessoas na lista");
+            Console.WriteLine();
+
+            List<Pessoa> menores = pessoas.FindAll(pessoa => pessoa.idade < 18);
+            menores.ForEach(menor => pessoas.Remove(menor));
+
+            pessoas.ForEach(pessoa => Console.WriteLine(pessoa.nome));
+            Console.WriteLine(pessoas.Count + " pessoas maiores de idade na lista");
         }
     }
 }
