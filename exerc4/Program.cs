@@ -22,10 +22,12 @@ namespace exerc4
                 }
             });
 
+            Console.WriteLine("EXERCÍCIO 4:");
             Console.WriteLine(maisVelho.nome + " é o mais velho");
             Console.WriteLine();
 
             // EXERCÍCIO 5
+            Console.WriteLine("EXERCÍCIO 5:");
             Console.WriteLine(pessoas.Count + " pessoas na lista");
             Console.WriteLine();
 
@@ -34,6 +36,16 @@ namespace exerc4
 
             pessoas.ForEach(pessoa => Console.WriteLine(pessoa.nome));
             Console.WriteLine(pessoas.Count + " pessoas maiores de idade na lista");
+            Console.WriteLine();
+
+            // EXERCÍCIO 6
+            Pessoa jessica = pessoas.Find(pessoa => pessoa.nome == "Jessica");
+            Console.WriteLine("EXERCÍCIO 6:");
+            if (jessica is null) {
+                Console.WriteLine("Jessica não existe na lista");
+            } else {
+                Console.WriteLine("Jessica tem {0} anos", jessica.idade);
+            }
         }
     }
 }
