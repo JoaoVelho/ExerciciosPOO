@@ -14,6 +14,14 @@ namespace exerc1
         public int Velocidade { get; set; }
         public double Preco { get; set; }
 
+        public Veiculo(string Marca, string Modelo, string Placa, float Km, double Preco) {
+            this.Marca = Marca;
+            this.Modelo = Modelo;
+            this.Placa = Placa;
+            this.Km = Km;
+            this.Preco = Preco;
+        }
+
         public void acelerar() {
             if (!isLigado) {
                 Console.WriteLine("O veículo está desligado!");
@@ -21,6 +29,7 @@ namespace exerc1
             }
             Velocidade += 20;
         }
+
         public void abastecer(int combustivel) {
             litrosCombustivel += combustivel;
             if (litrosCombustivel >= 60) {
@@ -28,6 +37,7 @@ namespace exerc1
                 Console.WriteLine("O limite do tanque é 60 litros!");
             }
         }
+        
         public void frear() {
             if (Velocidade == 0) {
                 Console.WriteLine("O veículo já está parado!");

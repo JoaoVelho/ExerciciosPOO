@@ -6,13 +6,8 @@ namespace exerc1
     {
         static void Main(string[] args)
         {
-            Veiculo veiculo = new Veiculo();
+            Veiculo veiculo = new Veiculo("Toyota", "Corolla", "ABCDEFG", 125.5f, 210000);
 
-            veiculo.Marca = "Toyota";
-            veiculo.Modelo = "Corolla";
-            veiculo.Placa = "ABCDEFG";
-            veiculo.Km = 125.5f;
-            veiculo.Preco = 210000;
             Console.WriteLine("Marca: " + veiculo.Marca);
             Console.WriteLine("Modelo: " + veiculo.Modelo);
             Console.WriteLine("Placa: " + veiculo.Placa);
@@ -30,31 +25,31 @@ namespace exerc1
                         break;
                     case 1:
                         veiculo.ligar();
-                        Console.WriteLine(veiculo.isLigado);
+                        Console.WriteLine("Ligado: " + veiculo.isLigado);
                         break;
                     case 2:
                         veiculo.desligar();
-                        Console.WriteLine(veiculo.isLigado);
+                        Console.WriteLine("Ligado: " + veiculo.isLigado);
                         break;
                     case 3:
                         veiculo.acelerar();
-                        Console.WriteLine(veiculo.Velocidade);
+                        Console.WriteLine("Velocidade: " + veiculo.Velocidade);
                         break;
                     case 4:
                         veiculo.frear();
-                        Console.WriteLine(veiculo.Velocidade);
+                        Console.WriteLine("Velocidade: " + veiculo.Velocidade);
                         break;
                     case 5:
                         Console.WriteLine("Insira quantos litros você quer abastecer: ");
                         int litros = int.Parse(Console.ReadLine());
                         veiculo.abastecer(litros);
-                        Console.WriteLine(veiculo.litrosCombustivel);
+                        Console.WriteLine("Litros: " + veiculo.litrosCombustivel);
                         break;
                     case 6:
                         Console.WriteLine("Insira a cor que você quer pintar: ");
                         string cor = Console.ReadLine();
                         veiculo.pintar(cor);
-                        Console.WriteLine(veiculo.Cor);
+                        Console.WriteLine("Cor: " + veiculo.Cor);
                         break;
                     default:
                         Console.WriteLine("Escolha uma opção válida!");
