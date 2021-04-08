@@ -7,6 +7,7 @@ namespace exerc4
     {
         static void Main(string[] args)
         {
+            // EXERCÍCIO 4
             List<Pessoa> pessoas = new List<Pessoa>() {
                 new Pessoa("João", 15),
                 new Pessoa("Leandro", 21),
@@ -34,8 +35,8 @@ namespace exerc4
             List<Pessoa> menores = pessoas.FindAll(pessoa => pessoa.idade < 18);
             menores.ForEach(menor => pessoas.Remove(menor));
 
-            pessoas.ForEach(pessoa => Console.WriteLine(pessoa.nome));
             Console.WriteLine(pessoas.Count + " pessoas maiores de idade na lista");
+            pessoas.ForEach(pessoa => Console.WriteLine(pessoa.nome));
             Console.WriteLine();
 
             // EXERCÍCIO 6
