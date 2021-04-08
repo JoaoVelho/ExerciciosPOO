@@ -32,9 +32,12 @@ namespace exerc2
 
             ps4Usado.calculaImposto();
             ps4.calculaImposto();
+            Console.WriteLine();
 
             americanas.listaLivros();
+            Console.WriteLine();
             americanas.listaVideoGames();
+            Console.WriteLine();
             americanas.calculaPatrimonio();
         }
     }
