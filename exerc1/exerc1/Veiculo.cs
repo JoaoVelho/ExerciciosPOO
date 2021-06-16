@@ -4,15 +4,15 @@ namespace exerc1
 {
     public class Veiculo
     {
-        public string Marca { get; set; }
-        public string Modelo { get; set; }
-        public string Placa { get; set; }
-        public string Cor { get; set; }
-        public float Km { get; set; }
-        public bool isLigado { get; set; }
-        public int litrosCombustivel { get; set; }
-        public int Velocidade { get; set; }
-        public double Preco { get; set; }
+        public string Marca { get; private set; }
+        public string Modelo { get; private set; }
+        public string Placa { get; private set; }
+        public string Cor { get; private set; }
+        public float Km { get; private set; }
+        public bool isLigado { get; private set; }
+        public int litrosCombustivel { get; private set; }
+        public int Velocidade { get; private set; }
+        public double Preco { get; private set; }
 
         public Veiculo(string Marca, string Modelo, string Placa, float Km, double Preco) {
             this.Marca = Marca;
