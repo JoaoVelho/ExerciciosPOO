@@ -1,3 +1,5 @@
+using System;
+using System.IO;
 using exerc3;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
@@ -38,6 +40,18 @@ namespace Tests
             guerreiro.aprenderHabilidade("Chute");
 
             Assert.AreEqual(guerreiro.habilidade.Contains("Chute"), true);
+        }
+
+        [TestMethod]
+        public void DeveEscreverNoConsoleDanoDe105AoAtacar()
+        {
+            var output = new StringWriter();
+            Console.SetOut(output);
+
+            FakeGuerreiro guerreiro = new FakeGuerreiro("Guerreiro");
+            guerreiro.attack();
+
+            Assert.AreEqual(output.ToString(), "Guerreiro causou 105 de dano" + Environment.NewLine);
         }
     }
 }

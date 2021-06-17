@@ -1,3 +1,5 @@
+using System;
+using System.IO;
 using exerc3;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
@@ -38,6 +40,18 @@ namespace Tests
             mago.aprenderMagia("Fogo");
 
             Assert.AreEqual(mago.magia.Contains("Fogo"), true);
+        }
+
+        [TestMethod]
+        public void DeveEscreverNoConsoleDanoDe105AoAtacar()
+        {
+            var output = new StringWriter();
+            Console.SetOut(output);
+
+            FakeMago mago = new FakeMago("Mago");
+            mago.attack();
+
+            Assert.AreEqual(output.ToString(), "Mago causou 105 de dano" + Environment.NewLine);
         }
     }
 }
